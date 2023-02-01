@@ -1,16 +1,13 @@
-import { useState, useEffect } from 'react'
-
+import { Link } from 'react-router-dom';
+import Router from './Router';
 import './App.css'
-import MyComponent from './components/MyComponent'
 
 function App() {
-  
-
   return (
     <div>
-      <MyComponent />
+      <Router/>
     </div>
   )
 }
 
-export default App
+export default App;
